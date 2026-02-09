@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const templates = [
-  { id: 1, img: '/src/assets/templates/temp1.png', name: 'Modern' },
-  { id: 2, img: '/src/assets/templates/temp2.png', name: 'Neon' },
-  { id: 3, img: '/src/assets/templates/temp3.png', name: 'Minimal' }
+  { id: 1, img: '/templates/temp1.png', name: 'Modern' },
+  { id: 2, img: '/templates/temp2.png', name: 'Neon' },
+  { id: 3, img: '/templates/temp3.png', name: 'Minimal' }
 ];
 
 const TemplateSidebar = () => {
