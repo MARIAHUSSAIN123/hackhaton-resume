@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom'; // Yeh line check karein
+import App from './App.jsx';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter> {/* Router yahan wrap hona chahiye */}
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
