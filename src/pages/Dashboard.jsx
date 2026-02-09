@@ -36,31 +36,31 @@ const Dashboard = () => {
   };
 
   const navigate = useNavigate();
-  const templateImages = ["/src/assets/templates/temp1.png", "/src/assets/templates/temp2.png"];
+  const templateImages = ["/assets/templates/temp1.png", "/assets/templates/temp2.png"];
 
   const SECTION_DETAILS = {
     process: {
       title: "The Architecture of Career Success",
       tag: "SYSTEM PROTOCOL 01",
-      img: "/src/assets/templates/tech2.png",
+      img: "/assets/templates/tech2.png",
       content: "NeonVault's deployment protocol is engineered for speed and precision. Phase 1: Visual Selection. Phase 2: Neural Injection (AI Optimization). Phase 3: Global Deployment."
     },
     ai_core: {
       title: "Neural AI Content Optimizer v4.0",
       tag: "SYSTEM PROTOCOL 02",
-      img: "/templates/temp1.png",
+      img: "/assets/templates/temp1.png",
       content: "Our AI Core performs deep semantic analysis of your career history, cross-referencing skills with millions of successful assets for ATS dominance."
     },
     security: {
       title: "Fortified Cloud Storage",
       tag: "SYSTEM PROTOCOL 03",
-      img: "/templates/male.png",
+      img: "/assets/templates/male.png",
       content: "Military-grade SSL-256 bit encryption ensures your personal information remains classified in our iron-clad vault."
     },
     about: {
       title: "The NeonVault Manifesto",
       tag: "CORE VISION",
-      img: "/templates/3.png",
+      img: "/assets/templates/3.png",
       content: "Merging high-end aesthetics with data-driven results to build the future of professional identities."
     }
   };
